@@ -6,9 +6,9 @@
         "sort-packages": true
     },
     "require": {
-        "php": "^5.6|^7.0",
+        "php": "^7.0",
         "guzzlehttp/guzzle": "^6.0",
-        "paragonie/random_compat": "^1|^2|^9.99"
+        "paragonie/random_compat": ">=2"
         "league/oauth2-client": "^2.0",
     },
     "require-dev": {
