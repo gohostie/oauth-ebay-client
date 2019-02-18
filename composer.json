@@ -1,60 +1,24 @@
 {
     "name": "gohostie/oauth-ebay-client",
-    "description": "OAuth 2.0 eBay Client Library",
+    "type": "library",
+    "description": "oauth2 ebay client provider thephpleague/oauth2-client",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/gohostie/oauthh-ebay-client",
     "license": "MIT",
-    "config": {
-        "sort-packages": true
-    },
-    "require": {
-        "php": "^7.0",
-        "guzzlehttp/guzzle": "^6.0",
-        "paragonie/random_compat:>=2"
-        "league/oauth2-client": "^2.0",
-    },
-    "require-dev": {
-        "eloquent/liberator": "^2.0",
-        "eloquent/phony-phpunit": "^1.0|^3.0",
-        "jakub-onderka/php-parallel-lint": "^0.9.2",
-        "phpunit/phpunit": "^5.7|^6.0",
-        "squizlabs/php_codesniffer": "^2.3|^3.0"
-    },
-    "keywords": [
-        "oauth",
-        "oauth2",
-        "authorization",
-        "authentication",
-        "idp",
-        "identity",
-        "sso",
-        "single sign on"
-    ],
     "authors": [
         {
-            "name": "ste davies",
+            "name": "stephen davies",
             "email": "info@gohostie.co.uk",
-            "homepage": "https://www.gohostie.co.uk",
+            "homepage": "gohostie.co.uk",
             "role": "Developer"
-        },
-        {
-            "name": "Woody Gilk",
-            "homepage": "https://github.com/gohostie",
-            "role": "Contributor"
         }
-
     ],
+    "require": {
+        "php": ">=7.0.0"
+    },
     "autoload": {
-        "psr-4": {
-            "Gohostie\\OAuth2\\Client\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Gohostie\\OAuth2\\Client\\Test\\": "test/src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-1.x": "1.0.x-dev"
+        "psr-0": {
+            "Monolog": "src"
         }
     }
 }
