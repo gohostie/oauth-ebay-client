@@ -2,7 +2,7 @@
 oauth-ebay-client
 
 # Install
-composer require gohostie/oauthebay-client
+composer require gohostie/oauth-ebay-client
 
 # Usage
 $provider = new \NeilCrookes\OAuth2\Client\Provider\Ebay([
