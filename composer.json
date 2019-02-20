@@ -1,24 +1,32 @@
 {
-    "name": "gohostie/oauth-ebay-client",
-    "type": "library",
-    "description": "oauth2 ebay client provider thephpleague/oauth2-client",
-    "keywords": ["log","logging"],
-    "homepage": "https://github.com/gohostie/oauthh-ebay-client",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "stephen davies",
-            "email": "info@gohostie.co.uk",
-            "homepage": "https://gohostie.co.uk",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=7.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Gohostie\\OAuth2\\Client\\": "src"
-        }
+  "name": "Gohostie/oauth-ebay-client",
+  "description": "eBay OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "authorization",
+    "authentication",
+    "idp",
+    "identity",
+    "sso",
+    "single sign on",
+    "ebay",
+    "ebay api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stephen Davies",
+      "email": "info@gohostie.co.uk"
     }
+  ],
+  "require": {
+    "php": ">=7",
+    "league/oauth2-client": ">=2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gohostie\\OAuth2\\Client\\": "src/"
+    }
+  }
 }
